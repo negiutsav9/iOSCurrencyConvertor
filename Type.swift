@@ -1,0 +1,171 @@
+//
+//  Type.swift
+//  Currency Convertor
+//
+//  Created by Utsav Negi on 6/19/20.
+//  Copyright © 2020 CS50. All rights reserved.
+//
+
+import Foundation
+
+
+struct individualRate: Decodable {
+    let AED : Float
+    let AFN : Float
+    let ALL : Float
+    let AMD : Float
+    let ANG : Float
+    let AOA : Float
+    let ARS : Float
+    let AUD : Float
+    let AWG : Float
+    let AZN : Float
+    let BAM : Float
+    let BBD : Float
+    let BCH : Float
+    let BDT : Float
+    let BGN : Float
+    let BHD : Float
+    let BIF : Float
+    let BMD : Float
+    let BND : Float
+    let BOB : Float
+    let BRL : Float
+    let BSD : Float
+    let BTC : Float
+    let BTG : Float
+    let BWP : Float
+    let BZD : Float
+    let CAD : Float
+    let CDF : Float
+    let CHF : Float
+    let CLP : Float
+    let CNH : Float
+    let CNY : Float
+    let COP : Float
+    let CRC : Float
+    let CUC : Float
+    let CUP : Float
+    let CVE : Float
+    let CZK : Float
+    let DASH : Float
+    let DJF : Float
+    let DKK : Float
+    let DOP : Float
+    let DZD : Float
+    let EGP : Float
+    let EOS : Float
+    let ETB : Float
+    let ETH : Float
+    let EUR : Float
+    let FJD : Float
+    let GBP : Float
+    let GEL : Float
+    let GHS : Float
+    let GIP : Float
+    let GMD : Float
+    let GNF : Float
+    let GTQ : Float
+    let GYD : Float
+    let HKD : Float
+    let HNL : Float
+    let HRK : Float
+    let HTG : Float
+    let HUF : Float
+    let IDR : Float
+    let ILS : Float
+    let INR : Float
+    let IQD : Float
+    let IRR : Float
+    let ISK : Float
+    let JMD : Float
+    let JOD : Float
+    let JPY : Float
+    let KES : Float
+    let KGS : Float
+    let KHR : Float
+    let KMF : Float
+    let KRW : Float
+    let KWD : Float
+    let KYD : Float
+    let KZT : Float
+    let LAK : Float
+    let LBP : Float
+    let LKR : Float
+    let LRD : Float
+    let LSL : Float
+    let LTC : Float
+    let LYD : Float
+    let MAD : Float
+    let MDL : Float
+    let MKD : Float
+    let MMK : Float
+    let MOP : Float
+    let MUR : Float
+    let MVR : Float
+    let MWK : Float
+    let MXN : Float
+    let MYR : Float
+    let MZN : Float
+    let NAD : Float
+    let NGN : Float
+    let NIO : Float
+    let NOK : Float
+    let NPR : Float
+    let NZD : Float
+    let OMR : Float
+    let PAB : Float
+    let PEN : Float
+    let PGK : Float
+    let PHP : Float
+    let PKR : Float
+    let PLN : Float
+    let PYG : Float
+    let QAR : Float
+    let RON : Float
+    let RSD : Float
+    let RUB : Float
+    let RWF : Float
+    let SAR : Float
+    let SBD : Float
+    let SCR : Float
+    let SDG : Float
+    let SEK : Float
+    let SGD : Float
+    let SLL : Float
+    let SOS : Float
+    let SRD : Float
+    let SVC : Float
+    let SZL : Float
+    let THB : Float
+    let TJS : Float
+    let TMT : Float
+    let TND : Float
+    let TOP : Float
+    let TRY : Float
+    let TTD : Float
+    let TWD : Float
+    let TZS : Float
+    let UAH : Float
+    let UGX : Float
+    let USD : Float
+    let UYU : Float
+    let UZS : Float
+    let VND : Float
+    let XAF : Float
+    let XAG : Float
+    let XAU : Float
+    let XCD : Float
+    let XLM : Float
+    let XOF : Float
+    let XRP : Float
+    let YER : Float
+    let ZAR : Float
+    let ZMW : Float
+}
+
+struct Rates: Decodable {
+    let rates : individualRate
+}
+
+

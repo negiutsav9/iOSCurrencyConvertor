@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Convert"; ObjectID = "2WY-X6-TgV"; */
+"2WY-X6-TgV.text" = "Convert";
+
+/* Class = "UINavigationItem"; title = "Currency Convertor"; ObjectID = "BTK-UM-yFB"; */
+"BTK-UM-yFB.title" = "Currency Convertor";
+
+/* Class = "UINavigationItem"; title = "Convert"; ObjectID = "I2I-t7-T0F"; */
+"I2I-t7-T0F.title" = "Convert";
+
+/* Class = "UINavigationItem"; title = "Rates "; ObjectID = "Im4-Wn-GdD"; */
+"Im4-Wn-GdD.title" = "Rates ";
+
+/* Class = "UILabel"; text = "Rates "; ObjectID = "V09-G4-Pml"; */
+"V09-G4-Pml.text" = "Rates ";
